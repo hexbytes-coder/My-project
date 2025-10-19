@@ -1,0 +1,40 @@
+body {
+    background: grey;
+}
+.message1 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.text {
+    background-image: url("palestine.jpg");
+    background-size: contain;
+    background-clip: text;
+    font-family: cursive, sans-serif;
+    color: transparent;
+}
+.enter {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    border-color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.enter::placeholder {
+    font-size: 19px;
+    font-family: -apple-system, sans-serif;
+}
+.button {
+    font-size: 30px;
+    border-radius: 20px;
+    color: black;
+    transform: translateY(5px);
+}
+.enter::-webkit-validation-bubble-message {
+    font-size: 20px;
+}
+.chat {
+    border-radius: 20px;
+}
