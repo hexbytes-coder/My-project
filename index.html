@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>chat with me</title>
+  </head>
+  <body>
+    <center>
+      <h1 class="text">this website is only for chat with me</h1>
+    </center>
+    <center>
+      <img src="chat.png" alt="" srcset="" class="chat">
+      <div class="message1">
+        <input
+          type="text"
+          id="message"
+          placeholder="enter your message "
+          class="enter"
+        />
+        <button type="submit" class="button">enter</button>
+      </div>
+    </center>
+
+    <script>
+      const enter = document.getElementById("message").value;
+      if (enter =/= "") {
+         window.innerHTML = '<meta http-equiv="refresh" content="0; url=chat.html">';
+      }
+
+    </script>
+  </body>
+  <footer>
+    <h3>&copy; 2025-forever</h3>
+  </footer>
+</html>
