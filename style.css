@@ -38,3 +38,6 @@ body {
 .chat {
     border-radius: 20px;
 }
+.-sdd {
+    transform: translateX(140px);
+}
